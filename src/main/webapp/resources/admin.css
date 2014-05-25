@@ -1,0 +1,50 @@
+.page {
+	margin: 30px 0;
+	text-align: left;
+}
+
+.page span, .page a {
+	color: #666666;
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	padding: 0 5px;
+}
+.page a{
+	cursor: pointer;
+	text-decoration:none;
+}
+.page span{
+	color: #cccccc;
+	cursor: default;
+}
+.page .hover {
+	background-color: #82ADDA;
+	color: #FFFFFF;
+}
+
+.page span.cur {
+	color: #333333;
+	cursor: default;
+	border:1px solid #FFFFFF;
+}
+
+.page input {
+	width: 25px;
+	height:20px;
+	padding:0px;
+	border:1px solid #CCCCCC;
+}
+.page a:hover {
+color: #fff;
+text-decoration: none;
+background: #37a;
+}
+#tableContent table{
+	border:1px solid #7c7c7c;
+}
+#tableContent td{
+	border-top:1px solid #7c7c7c;
+}
